@@ -19,6 +19,8 @@ The following artifacts are provided for analysis:
 - **Regression Metrics**: MSE, RMSE, MAE, and additional metrics to evaluate model performance.
 - **Error Analysis**: Visualizations to inspect model residuals and prediction errors.
 
+  Colab: https://colab.research.google.com/drive/1jdT7JWZrvLTeGs1IXBtyGRU-ZDW7VOFq?usp=sharing
+
 # 2. Classification (Wildfire Prediction)
 
 ## Problem:
@@ -31,8 +33,7 @@ A simple **Multilayer Perceptron (MLP)** architecture is used for the classifica
 - **Hidden Layers**: Several **Dense** layers with **ReLU activation**, with regularization using **Dropout** and **BatchNormalization**.
 - **Output Layer**: A single neuron with **sigmoid activation** for binary classification.
 
-## Artifacts:
-The following artifacts are provided for analysis:
+Colab: https://colab.research.google.com/drive/12NTVLCzTM7_2WC3t4aV17NjCWRyxUkKL?usp=sharing
 
 # 3. Image Classification (Fashion MNIST)
 
@@ -65,3 +66,7 @@ The following artifacts are provided for analysis:
 - **Classification Metrics**: Accuracy, Precision, Recall, F1-score for overall and per-class evaluation.
 - **ROC and PR Curves**: Visualization of model performance using Receiver Operating Characteristic and Precision-Recall curves.
 - **Error Analysis**: Per-class analysis to inspect model predictions and identify misclassifications.
+
+  Colab: https://colab.research.google.com/drive/1F_8zNfKoSxJG6erb98EgszuacZW9SjSc?usp=sharing
+
+Youtube: https://www.youtube.com/watch?v=XNTeppJ71UQ
