@@ -18,3 +18,24 @@ The following artifacts are provided for analysis:
 - **Model Visualization**: A diagram of the neural network architecture.
 - **Regression Metrics**: MSE, RMSE, MAE, and additional metrics to evaluate model performance.
 - **Error Analysis**: Visualizations to inspect model residuals and prediction errors.
+
+# 2. Classification (Wildfire Prediction)
+
+## Problem:
+The objective of this task is to predict **wildfire occurrences** using sensor data. The model is designed to classify whether a wildfire will occur (**1 = Wildfire, 0 = No Wildfire**) based on real-time environmental conditions such as temperature, humidity, wind speed, and vegetation indices.
+
+## Model:
+A simple **Multilayer Perceptron (MLP)** architecture is used for the classification task. The model consists of the following layers:
+
+- **Input Layer**: Accepts sensor-based environmental features.
+- **Hidden Layers**: Several **Dense** layers with **ReLU activation**, with regularization using **Dropout** and **BatchNormalization**.
+- **Output Layer**: A single neuron with **sigmoid activation** for binary classification.
+
+## Artifacts:
+The following artifacts are provided for analysis:
+
+- **Training History Plots**: Visualizations of loss and accuracy over epochs.
+- **Model Visualization**: A diagram of the neural network architecture.
+- **Classification Metrics**: Accuracy, Precision, Recall, F1-score for overall and per-class evaluation.
+- **ROC and PR Curves**: Visualization of model performance using Receiver Operating Characteristic and Precision-Recall curves.
+- **Error Analysis**: Per-class analysis to inspect model predictions and identify misclassifications.
